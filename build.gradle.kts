@@ -29,6 +29,12 @@ dependencies {
     implementation(ktorLibs.server.swagger)
     implementation(libs.postgresql)
     implementation("io.ktor:ktor-client-resources:3.6.0")
+    implementation("io.ktor:ktor-server-content-negotiation:3.6.0")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:3.6.0")
+    implementation("org.jetbrains.exposed:exposed-core:1.3.1")
+    implementation("org.jetbrains.exposed:exposed-r2dbc:1.3.1")
+    implementation("com.h2database:h2:2.4.240")
+    implementation("io.r2dbc:r2dbc-h2:1.1.0.RELEASE")
 
     testImplementation(kotlin("test"))
     testImplementation(ktorLibs.server.testHost)

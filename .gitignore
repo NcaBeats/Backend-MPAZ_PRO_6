@@ -1,0 +1,19 @@
+# === Seguridad y Configuración Local ===
+.env
+*.local
+/local.properties
+
+# === Kotlin y Ktor (Archivos Temporales y Compilación) ===
+.kotlin/
+build/
+/build/
+.gradle/
+*.exec
+*.dump
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
